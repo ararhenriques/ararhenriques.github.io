@@ -1,0 +1,8 @@
+#contact{
+    background: var(--grey);
+}
+
+label{
+    font-family: 'Monoton', cursive;
+    font-size: 16pt;
+}
