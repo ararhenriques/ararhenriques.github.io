@@ -44,7 +44,7 @@
                 
                 <section id="about" name="about" class="block">
                     <div class="media p-3 mb-2 ">
-                        <img src="../Assests/me.jpg" class="align-self-center mr-3" alt="...">
+                        <img src="./Assests/me.jpg" class="align-self-center mr-3" alt="...">
                         <div class="media-body">
                           <p class="lead">My name is Arris Henriques, welcome to my portfolio. I have always had a passion for technologies, but it wasn't until recently that I realized how far I could take it, and how far it can take me. As a budding developer, I sharpen my problem solving skills daily and applying them to the world around me.</p>
                           <br>
@@ -106,12 +106,12 @@
                       <div class="row">
                       <div class="col-sm">
                         <p style="color: black; font-size: 40px">
-                            Resume: </p><a href="../Assests/Arris Resume.docx" download>Download</a>
+                            Resume: </p><a href="https://docs.google.com/document/d/1bRNynbtP4xGdljsbuovrGW6ZjdD6OFQZaD8Qd2Ih3Rk/edit" target="blank">My Resume</a>
                         </div>
                         <div class="col-sm">
                             <p style="color: black; font-size: 40px">Other Links:</p>
-                        <a href="https://www.linkedin.com/in/arris-henriques-04793117b/" download>LinkedIn</a>
-                        <a href="https://github.com/ararhenriques" download>GitHub</a>
+                        <a href="https://www.linkedin.com/in/arris-henriques-04793117b/" target="blank">LinkedIn</a>
+                        <a href="https://github.com/ararhenriques" target="blank">GitHub</a>
                         </div>
                       </div>
                     </div>
@@ -128,27 +128,27 @@
                   <div style="padding-top: 3em">
                 <div class="row">
                 <div class="col-sm" style="width: 18rem;">
-                  <img src="../Assests/vinylrevival.JPG" class="card-img-top" alt="...">
+                  <img src="./Assests/vinylrevival.JPG" class="card-img-top" alt="...">
                   <div class="card-body" id="cardtext">
                     <h5 class="card-title">Vinyl Revival</h5>
                     <p class="card-text">My final project for my javascript course at Eleven Fifty Academy, this is a vinyl record storefront/message board</p>
-                    <a href="https://vinylrevival.herokuapp.com/" class="btn btn-primary">Take me there</a>
+                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#vinylModal">Take me there</button>
                   </div>
                 </div>
                 <div class="col-sm" style="width: 18rem;">
-                  <img src="../Assests/rapsnacks.JPG" class="card-img-top" alt="...">
+                  <img src="./Assests/rapsnacks.JPG" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title" id="cardtext">Rap Snack Catalogue</h5>
                     <p class="card-text" id="creature"> Danger lurks on the other side of this link, player beware!</p>
-                    <a href="https://rapsnackappclient2.herokuapp.com/" class="btn btn-primary" id="creature">Take me there</a>
+                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#snackModal">Take me there</button>
                   </div>
                 </div>
                 <div class="col-sm" style="width: 18rem;">
-                  <img src="../Assests/gotCapture.PNG" class="card-img-top" alt="...">
+                  <img src="./Assests/gotCapture.PNG" class="card-img-top" alt="...">
                   <div class="card-body" id="cardtext">
                     <h5 class="card-title">An API of Ice and Fire</h5>
                     <p class="card-text">An API cataloguing the houses of Westeros</p>
-                    <a href="#" class="btn btn-primary">Take me there</a>
+                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#gotModal">Take me there</button>
                   </div>
                 </div>
               </div>
@@ -208,7 +208,71 @@
                 </article>
                   
                 </div>
+                
+                <div class="modal fade bd-example-modal-xl" id="vinylModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content" >
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Vinyl Revival</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body embed-responsive embed-responsive-16by9" >
+                        <iframe id="iframe" class="embed-responsive-item" src="https://vinylrevival.herokuapp.com/">
+                          <p>Your browser does not support iframes.</p>
+                        </iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="modal fade bd-example-modal-xl" id="snackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content" >
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Vinyl Revival</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body embed-responsive embed-responsive-16by9" >
+                        <iframe id="iframe" class="embed-responsive-item" src="https://rapsnackappclient2.herokuapp.com/">
+                          <p>Your browser does not support iframes.</p>
+                        </iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade bd-example-modal-xl" id="gotModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content" >
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Vinyl Revival</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body embed-responsive embed-responsive-16by9" >
+                        <iframe id="iframe" class="embed-responsive-item" src="https://arargotapi.firebaseapp.com/">
+                          <p>Your browser does not support iframes.</p>
+                        </iframe>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                
    </div>
 </main>
 
@@ -218,7 +282,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
-  <script src="./js/main.js"></script>
+  <script src="./main.js"></script>
   
 </body>
 </html>

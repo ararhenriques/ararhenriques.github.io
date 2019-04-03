@@ -70,6 +70,10 @@
 #res-list li, a {list-style-type: none; margin: 0 auto; text-decoration: none; color: inherit; float:left; padding: 10px; margin-left: 45px;}
 #res-list li:hover {background-color: rgb(109, 193, 196); padding: -5px; display: block;}
 
+/* Modal */
+/* #iframe {width: inherit};
+#mobo {width :inherit} */
+
 
 /* Media Queries */
 @media screen and (max-width: 959px) and (min-width: 768px) {
@@ -81,6 +85,8 @@
   #tutorial-main .block {padding: 30px;}
   #tutorial-main .parallax-one, #tutorial-main .parallax-two, #tutorial-main .parallax-three, #tutorial-main .parallax-four, #tutorial-main .parallax-five {padding-top:100px; padding-bottom:100px;}
 }
+
+
 
 
 
