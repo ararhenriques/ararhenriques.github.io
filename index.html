@@ -7,6 +7,16 @@
     <title>Henriques Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/eff3cf8b4e.js" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
 </head>
 
 <body>
@@ -15,8 +25,8 @@
                 <div class="dropdown-nav">
                         <ul>
                                 <li><a href="#parallax-one-f">HOME</a></li>
-                                <li><a href="#parallax-two-a">ABOUT</a></li>
-                                <li><a href="#parallax-four-fl">PROJECTS</a></li>
+                                <li><a href="#parallax-two-a">JAVASCRIPT</a></li>
+                                <li><a href="#parallax-four-fl">ANDROID</a></li>
                                 <li><a href="#parallax-five-c">CONTACT</a></li>
                             </ul>
                 </div>
@@ -25,20 +35,17 @@
         <br>
 
         <div id="tutorial-main">
-                <!--Header Title-->
                 <section>
                   <div class="title">
                     <hr>
                     <h1>Welcome To My Portfolio</h1>
                   </div>
                 </section>
-
-                <!--Parallax one: Functions-->
                 <section>
                     <div class="parallax-one">
                       <h2>ARRIS HENRIQUES
                         <br><br></h2>
-                      <h3>JAVASCRIPT/MOBILE DEVELOPER</h3>
+                      <h3>JAVASCRIPT/ANDROID DEVELOPER</h3>
                     </div>
                 </section>
                 
@@ -46,11 +53,11 @@
                     <div class="media p-3 mb-2 ">
                         <img src="./Assests/me.jpg" class="align-self-center mr-3" alt="...">
                         <div class="media-body">
-                          <p class="lead">My name is Arris Henriques, welcome to my portfolio. I have always had a passion for technologies, but it wasn't until recently that I realized how far I could take it, and how far it can take me. As a budding developer, I sharpen my problem solving skills daily and applying them to the world around me.</p>
+                          <p class="lead">My name is Arris Henriques, welcome to my portfolio. I am a skilled fullstack developer. I have experience with Javascript and Android, having built applications in the PERN and PEAN stacks. I have always had a passion for technologies, and pride myself on my adaptability and eagerness to learn.</p>
                           <br>
-                          <p class="mb-0" id="blop">Though I've been pretty busy lately, when I'm not you can probably find me with friends hanging out. Some of my hobbies include:</p>
+                          <p class="mb-0" id="blop">Apart from coding, I am an avid movie watcher and traveler, having been to 11 countries so far. Some of my hobbies include:</p>
                           <ul >
-                              <li>Traveling</li>
+                              <li>Drawing</li>
                               <li>Instrumentation</li>
                               <li>Reading</li>
                               <li>Video Games</li>
@@ -59,24 +66,133 @@
                         </div>
                       </div>
               </section>
-                <!-- <article>
-                  <div class="block">
-                    <p id="parallax-one-f"><span class="first-character fn">A</span><cite>function is created with an expression that starts with the keyword function. Functions have a set of parameters and a body, which contains the statements that are to be executed when the function is called. The function body of a function created this way must always be wrapped in braces, even when it consists of only a single statement.<br><p class="indent">function functionName(parameters) { <br> // code to be executed }</p></cite>
-                    <p class="line-break margin-top-10"></p>
-                    <p class="margin-top-10">If you’re new to JavaScript, you may have heard the terms parameters and arguments used interchangeably. While very similar, there is an important distinction to make between these two keywords.Parameters are used when defining a function, they are the names created in the function definition. In fact, during a function definition, we can pass in up to 255 parameters! Parameters are separated by commas in the ( ). Arguments, on the other hand, are the values the function receives from each parameter when the function is executed (invoked). Functions execute when the function is called. This process is known as invocation. You can invoke a function by referencing the function name, followed by an open and closed parenthesis: ( ).</p>
-                  </div>
-                </article> -->
-                <!--Parallax two: Arrays-->
                 <section>
                   <div class="parallax-two" id="parallax-two-a">
-                    <h2>ABOUT ME</h2>
+                    <h2>JAVASCRIPT</h2>
                   </div>
                 </section>
                 
-                <section name="about" class="block">
+                <section name="javascript" class="block">
                   <div id="borderbox">
-                    <div class="container">
-                        <div class="row" >
+                    <div class="projects">
+                  
+                        <div class="project">
+                          <img src="./Assests/vinylrevival.JPG" class="card-img-top" alt="...">
+                          <div class="card-body" id="cardtext">
+                            <div class="info-container">
+                              <h5 class="card-title">Vinyl Revival</h5>
+                              <div class="description-container">
+                                <p class="app-description">
+                                  Vinyl Revival is a gorgeous vinyl record storefront/message board, made with Angular. Favorite records, make a wishlist, and view other user's thoughts and insights!
+                                </p>
+                              </div>
+                              <div class="tech-stack-section">
+                                <div class="tech-stack-lists">
+                                  <ul class="skill-list">
+                                    <li><i class="devicon-angularjs-plain colored"></i>
+                                      Angular7
+                                    </li>
+                                    <li><i class="devicon-javascript-plain colored"></i>
+                                      Javascript
+                                    </li>
+                                    <li><i class="devicon-nodejs-plain colored"></i>
+                                      Node
+                                    </li>
+                                    <li><i class="devicon-express-original colored"></i>
+                                      Express
+                                    </li>
+                                    <li><i class="devicon-postgresql-plain colored"></i>
+                                      PostgreSQL
+                                    </li>
+                                    <li> <i class="devicon-html5-plain colored"></i>
+                                      HTML5
+                                    </li>
+                                    <li> <i class="devicon-heroku-plain colored"></i>
+                                      Heroku
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <a href="#vinylModal" type="button" data-toggle="modal" data-target="#vinylModal"><i class="fas fa-globe-africa"></i> Take me there</a>
+                              <br><br>
+                              <a href="https://github.com/cweiler52/vinyl_revival"><i class="fab fa-github"></i> View on Github</a>
+                              <a href="https://github.com/cweiler52/vinylrevival_server"><i class="fab fa-github"></i> View on Github(Server)</a>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class="project">
+                          <img src="./Assests/rapsnacks.JPG" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <div class="info-container">
+                              <h5 class="card-title">RapSnacks Catalogue</h5>
+                              <div class="description-container">
+                                <p class="app-description">
+                                  A react application featuring the flavors of the popular chips brand Rapsnacks.
+                                </p>
+                              </div>
+                              <div class="tech-stack-section">
+                                <div class="tech-stack-lists">
+                                  <ul class="skill-list">
+                                    <li><i class="devicon-react-original colored"></i>
+                                      React
+                                    </li>
+                                    <li><i class="devicon-javascript-plain colored"></i>
+                                      Javascript
+                                    </li>
+                                    <li><i class="devicon-bootstrap-plain colored"></i>
+                                      Bootstrap
+                                    </li>
+                                    <li><i class="devicon-nodejs-plain colored"></i>
+                                      Node
+                                    </li>
+                                    <li><i class="devicon-express-original colored"></i>
+                                      Express
+                                    </li>
+                                    <li><i class="devicon-postgresql-plain colored"></i>
+                                      PostgreSQL
+                                    </li>
+                                    <li> <i class="devicon-html5-plain colored"></i>
+                                      HTML5
+                                    </li>
+                                    <li> <i class="devicon-heroku-plain colored"></i>
+                                      Heroku
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <a href="#snackModal" type="button" data-toggle="modal" data-target="#snackModal"><i class="fas fa-globe-americas"></i> Take me there</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="project">
+                          <img src="./Assests/gotCapture.PNG" class="card-img-top" alt="...">
+                          <div class="card-body" id="cardtext">
+                            <div class="info-container">
+                              <h5 class="card-title">An API of Ice and Fire</h5>
+                              <div class="description-container">
+                                <p class="app-description">
+                                  A Javascript applet cataloguing the houses of Westeros.
+                                </p>
+                              </div>
+                              <div class="tech-stack-section">
+                                <div class="tech-stack-lists">
+                                  <ul class="skill-list">
+                                    <li><i class="devicon-javascript-plain colored"></i>
+                                      Javascript
+                                    </li>
+                                    <li> <i class="devicon-html5-plain colored"></i>
+                                      HTML5
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <a href="#gotModal" type="button" data-toggle="modal" data-target="#gotModal"><i class="fas fa-globe-europe"></i> Take me there</a>
+                              <a href="https://github.com/ararhenriques/api-got"><i class="fab fa-github"></i> View on Github</a>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="row" >
                           <div class="col-sm">
                               <p style="color: black; font-size: 40px">Soft Skills:</p>
                         <ul >
@@ -100,11 +216,8 @@
                         </ul>
                       </div>
                       
-                      </div>
-                      <div class="row">
-                        
-                      </div>
-                      <br>
+                      </div> -->
+                      <!-- <br>
                       <div class="row">
                       <div class="col-sm">
                         <p style="color: black; font-size: 40px">
@@ -115,66 +228,69 @@
                         <a href="https://www.linkedin.com/in/arris-henriques-04793117b/" target="blank">LinkedIn</a>
                         <a href="https://github.com/ararhenriques" target="blank">GitHub</a>
                         </div>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
             </section>
-                <!--Parallax Four: For Loops-->
                 <section>
                   <div class="parallax-four" id="parallax-four-fl">
-                    <h2>PROJECTS</h2>
+                    <h2>ANDROID</h2>
                   </div>
                 </section>
                 
-                <section id="portfolio" name="projects" class="container">
+                <section id="portfolio" name="android" class="block">
+                  <div id="borderbox">
+                    <div class="projects">
                   <div style="padding-top: 3em">
-                <div class="row">
-                  
-                <div class="col-sm" style="width: 18rem;">
-                  <img src="./Assests/vinylrevival.JPG" class="card-img-top" alt="...">
-                  <div class="card-body" id="cardtext">
-                    <h5 class="card-title">Vinyl Revival</h5>
-                    <p class="card-text">Final project for my javascript course at Eleven Fifty Academy, this is an Angular app vinyl record storefront/message board</p>
-                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#vinylModal">Take me there</button>
-                  </div>
-                </div>
-                <div class="col-sm" style="width: 18rem;">
-                  <img src="./Assests/rapsnacks.JPG" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title" id="cardtext">Rap Snack Catalogue</h5>
-                    <p class="card-text" id="creature"> A react application that catalogues the flavors of the popular chip brand, RapSnacks.</p>
-                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#snackModal">Take me there</button>
-                  </div>
-                  <br>
-                  <br>
-                  <br>
-                  <div class="col-sm" style="width: 18rem;">
-                    <img src="./Assests/Screenshot_20200813-141108_Grocery Guide v1.jpg" class="card-img-top"  alt="..." >
-                    <div class="card-body" id="cardtext">
-                      <h5 class="card-title">Grocery Guide</h5>
-                      <p class="card-text">Android/Kotlin dieting app with barcode scanning functionality, location services, and user data. Currently on the Google Play Store. </p>
-                      <a class="btn btn-primary" id="dumbButton" type="button" href="https://play.google.com/store/apps/details?id=com.groceryguidev1" target="_blank">Play Store</a>
-                      <br><br>
-                      <a class="btn btn-primary" id="dumbButton" type="button" href="https://drive.google.com/drive/folders/1k0RfUkCZAwIcVy_S_crsMNoVSk5WIsbX?usp=sharing" target="_blank">Sample Barcodes</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm" style="width: 18rem;">
-                  <img src="./Assests/gotCapture.PNG" class="card-img-top" alt="...">
-                  <div class="card-body" id="cardtext">
-                    <h5 class="card-title">An API of Ice and Fire</h5>
-                    <p class="card-text">An API cataloguing the houses of Westeros</p>
-                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#gotModal">Take me there</button>
-                  </div>
-                </div>
-              </div>
-              <br>
-              <br>
+                      <div class="project">
+                        <img src="./Assests/Screenshot_20200813-141108_Grocery Guide v1.jpg" class="card-img-top"  alt="..." >
+                        <div class="card-body" id="cardtext">
+                          <div class="info-container">
+                            <h5 class="card-title">Grocery Guide</h5>
+                            <div class="row">
+                            <div class="description-container">
+                              <p class="app-description">
+                                An Android/Kotlin dieting app with barcode scanning functionality, location services, and user data. Ideal for those aiming to restrict their shopping to a specific diet, or those with allergies. Currently on the Google Play Store.
+                              </p>
+                              <div>
+                                <ul class="skill-list">
+                                  <li>
+                                    Scanner- Obtain your food item's information simply by scanning its barcode with your phone
+                                  </li>
+                                  <li>
+                                    Pins- Save your scans to a list for future reference
+                                  </li>
+                                  <li>
+                                    Maps- Find stores near you
+                                  </li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="tech-stack-section">
+                              <div class="tech-stack-lists">
+                                <ul class="skill-list">
+                                  <li><i class="devicon-android-plain colored"></i>
+                                    Android/Kotlin
+                                  </li>
+                                  <li><i class="devicon-amazonwebservices-original colored"></i>
+                                    Amazon Web Services
+                                  </li>
+                                </ul>
+                                <a href="https://drive.google.com/drive/folders/1k0RfUkCZAwIcVy_S_crsMNoVSk5WIsbX?usp=sharing" target="_blank"><i class="fas fa-barcode"></i></i> Sample Barcodes</a>
+                                <br/><br/>
+                                <a href="https://play.google.com/store/apps/details?id=com.groceryguidev1&hl=en_US" target="_blank"><i class="fab fa-google-play"></i> Play Store</a>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
             </div>
+            </div>
+          </div>
               <br>
             
               </section>
-                <!--parallax five: Conditionals -->
                 <section>
                   <div class="parallax-five" id="parallax-five-c">
                     <h2>CONTACT ME</h2>
@@ -227,7 +343,7 @@
                   
                 </div>
                 
-                <div class="modal fade bd-example-modal-xl" id="vinylModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-xl" id="vinylModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-xl" role="document">
                     <div class="modal-content" >
                       <div class="modal-header">
@@ -248,11 +364,11 @@
                   </div>
                 </div>
 
-                <div class="modal fade bd-example-modal-xl" id="snackModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-xl" id="snackModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-xl" role="document">
                     <div class="modal-content" >
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Vinyl Revival</h5>
+                        <h5 class="modal-title" id="ModalLabel">RapSnacks App</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -269,11 +385,11 @@
                   </div>
                 </div>
 
-                <div class="modal fade bd-example-modal-xl" id="gotModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade bd-example-modal-xl" id="gotModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-xl" role="document">
                     <div class="modal-content" >
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Vinyl Revival</h5>
+                        <h5 class="modal-title" id="ModalLabel">An API of Ice and Fire</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -294,13 +410,6 @@
    </div>
 </main>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
-  <script src="./main.js"></script>
   
 </body>
 </html>
