@@ -11,6 +11,9 @@
   box-shadow: 0 0 5px #80828E;
   margin-top: 25px;
 }
+.project a {
+  font-size: 25px;
+}
 
 
 /* Nav-dropdown-side*/
@@ -125,6 +128,25 @@
     align-items: center;}
   .psicon{
     vertical-align: middle;
+  }
+  .links{
+    margin: 0 auto;
+  }
+  .links a {
+    display: inline-block;
+  margin: 0 auto;
+  font-size: 50px;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  }
+  .media-body {
+    padding: 15px;
+  box-shadow: 0 0 5px #80828E;
   }
 
 /* Footer */ 
